@@ -1,7 +1,7 @@
 import tempfile
 from os.path import basename
 from zipfile import ZipFile
-import config as cfg
+import config.py
 
 from garnet import ctx
 from garnet.runner import RuntimeConfig
